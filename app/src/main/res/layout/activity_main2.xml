@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinku"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/buttons"
+        android:hint="@string/enter_your_phone_number"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColorHint="@color/whitey"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor,MissingConstraints,TextFields,UnknownIdInLayout"
+        tools:layout_editor_absoluteY="324dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="272dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/phonenumber"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60sp"
+        android:background="@drawable/buttons"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/backgroundcolor"
+        android:textColorHint="@color/whitey"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="0.444"
+        tools:ignore="LabelFor,MissingConstraints,TextFields,UnknownIdInLayout"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <TextView
+        android:id="@+id/forgetpassword"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/forgot_password"
+        android:textColor="@color/blacko"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="401dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <TextView
+        android:id="@+id/adminpanellink"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/i_am_admin"
+        android:textAlignment="center"
+        android:textColor="@color/blacko"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="264dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <TextView
+        android:id="@+id/not_admin_panel_link"
+        android:layout_width="152dp"
+        android:layout_height="25dp"
+        android:text="@string/not_an_admin"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/forgetpassword"
+        android:textColor="@color/blacko"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        />
+
+
+</RelativeLayout>

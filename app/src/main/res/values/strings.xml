@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Pikapainting</string>
+    <string name="pikapaint">Pikapaint</string>
+    <string name="join_now">Join Now</string>
+    <string name="already_have_an_account">Already Have An Account</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="i_am_admin">I am Admin</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="enter_your_phone_number">Enter your phone number</string>
+    <string name="already_have_an_account_login">Already Have An Account?Login</string>
+    <string name="create_an_account">Create An Account</string>
+    <string name="name">Name</string>
+    <string name="i_m_not_an_admin">I\'m not an Admin?</string>
+    <string name="not_an_admin">Not an admin</string>
+    <string name="add_new_product">Add new Product</string>
+    <string name="todo">TODO</string>
+    <string name="product_price">Product price...</string>
+    <string name="product_name">Product Name...</string>
+    <string name="product_description">Product Description...</string>
+
+</resources>

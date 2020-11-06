@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "680645372998",
+    "firebase_url": "https://pikapaint-41b25.firebaseio.com",
+    "project_id": "pikapaint-41b25",
+    "storage_bucket": "pikapaint-41b25.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680645372998:android:577cdec6aa75055e11ae47",
+        "android_client_info": {
+          "package_name": "com.example.pikapainting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680645372998-h3l6h59madgtq8db4bmkme49hd42mv4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pikapainting",
+            "certificate_hash": "f9d20b25d2f47edfb4a38a119f18201a4403739d"
+          }
+        },
+        {
+          "client_id": "680645372998-l1d4b9isrmogfaql8q6oneh9pf7p83k2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMOzwBQSnSuFX0R_VNNdXqBjwgROite_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680645372998-l1d4b9isrmogfaql8q6oneh9pf7p83k2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

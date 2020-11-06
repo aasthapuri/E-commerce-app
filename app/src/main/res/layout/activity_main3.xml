@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinku"
+    tools:context=".MainActivity3">
+
+    <EditText
+        android:id="@+id/phonenumber"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttons"
+        android:hint="@string/enter_your_phone_number"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:layout_below="@+id/name"
+        android:textAlignment="center"
+        android:textColorHint="@color/whitey"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor,MissingConstraints,TextFields,UnknownIdInLayout"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="272dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/buttons"
+        android:hint="@string/name"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:textAlignment="center"
+        android:textColorHint="@color/whitey"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="LabelFor,MissingConstraints,TextFields,UnknownIdInLayout"
+        tools:layout_editor_absoluteY="324dp" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="272dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/phonenumber"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="60sp"
+        android:background="@drawable/buttons"
+        android:hint="@string/enter_your_password"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        android:textAlignment="center"
+        android:textColorHighlight="@color/backgroundcolor"
+        android:textColorHint="@color/whitey"
+        android:textSize="23sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintHorizontal_bias="0.444"
+        tools:ignore="LabelFor,MissingConstraints,TextFields,UnknownIdInLayout"
+        tools:layout_editor_absoluteY="397dp" />
+
+
+    <Button
+        android:id="@+id/createanaccount"
+        android:layout_width="401dp"
+        android:layout_height="71dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/buttons"
+        android:padding="20dp"
+        android:text="@string/create_an_account"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+
+
+
+</RelativeLayout>
+
